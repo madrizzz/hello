@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Belajar Huruf Vokal</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <a class="skip-link" href="#content">Langkau ke kandungan utama</a>
+  <header class="hero">
+    <h1>Belajar Huruf Vokal Bahasa Melayu</h1>
+    <p>Tekan butang “Dengar” untuk mendengar sebutan dan pelajari suku kata.</p>
+    <button class="quiz-trigger" id="quizTrigger" type="button">Mulakan Kuiz</button>
+  </header>
+
+  <nav class="top-nav" aria-label="Navigasi Huruf">
+    <ul>
+      <li><a href="#huruf-a">A</a></li>
+      <li><a href="#huruf-e">E</a></li>
+      <li><a href="#huruf-i">I</a></li>
+      <li><a href="#huruf-o">O</a></li>
+      <li><a href="#huruf-u">U</a></li>
+    </ul>
+  </nav>
+
+  <main id="content" tabindex="-1" aria-describedby="contentDescription">
+    <p id="contentDescription" class="sr-only">Lima bahagian huruf vokal dengan kad gambar, suku kata dan sebutan digital.</p>
+    <section class="section" id="huruf-a" aria-labelledby="heading-a">
+      <h2 id="heading-a">Huruf A</h2>
+      <div class="card-grid" data-letter="A"></div>
+    </section>
+    <section class="section" id="huruf-e" aria-labelledby="heading-e">
+      <h2 id="heading-e">Huruf E</h2>
+      <div class="card-grid" data-letter="E"></div>
+    </section>
+    <section class="section" id="huruf-i" aria-labelledby="heading-i">
+      <h2 id="heading-i">Huruf I</h2>
+      <div class="card-grid" data-letter="I"></div>
+    </section>
+    <section class="section" id="huruf-o" aria-labelledby="heading-o">
+      <h2 id="heading-o">Huruf O</h2>
+      <div class="card-grid" data-letter="O"></div>
+    </section>
+    <section class="section" id="huruf-u" aria-labelledby="heading-u">
+      <h2 id="heading-u">Huruf U</h2>
+      <div class="card-grid" data-letter="U"></div>
+    </section>
+    <noscript>
+      <p class="noscript-message">Sila aktifkan JavaScript untuk melihat kad perkataan dan bermain kuiz vokal.</p>
+    </noscript>
+  </main>
+
+  <section id="quiz" class="quiz" aria-live="polite" hidden role="dialog" aria-modal="true" tabindex="-1" aria-labelledby="quizTitle" aria-hidden="true">
+    <div class="quiz-card" role="document">
+      <button class="quiz-close" id="quizClose" type="button" aria-label="Tutup kuiz">×</button>
+      <h2 id="quizTitle">Kuiz Vokal</h2>
+      <p id="quizInstruction">Apakah huruf vokal yang betul untuk perkataan ini?</p>
+      <img id="quizImage" alt="Imej kuiz" src="" />
+      <p id="quizWord" class="quiz-word"></p>
+      <div class="quiz-options" role="group" aria-label="Pilihan huruf vokal">
+        <button type="button" class="quiz-option" data-answer="A">A</button>
+        <button type="button" class="quiz-option" data-answer="E">E</button>
+        <button type="button" class="quiz-option" data-answer="I">I</button>
+        <button type="button" class="quiz-option" data-answer="O">O</button>
+        <button type="button" class="quiz-option" data-answer="U">U</button>
+      </div>
+      <p id="quizFeedback" class="quiz-feedback" role="status"></p>
+      <button type="button" id="nextQuestion" class="next-question" disabled>Soalan Seterusnya</button>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2024 Belajar Huruf Vokal. Dibina untuk kanak-kanak prasekolah.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
