@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300">
+    <rect width="400" height="300" rx="32" fill="#ffd6a5" />
+    <text x="200" y="120" text-anchor="middle" font-family="'Baloo 2', 'Comic Sans MS', sans-serif" font-size="96" fill="#333">O</text>
+    <text x="200" y="220" text-anchor="middle" font-family="'Baloo 2', 'Comic Sans MS', sans-serif" font-size="48" fill="#333">Obor</text>
+</svg>
