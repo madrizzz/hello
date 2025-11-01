@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" role="img" aria-labelledby="title desc">
+  <title id="title">Ilustrasi ekor kucing</title>
+  <desc id="desc">Ekor kucing kartun berjalur melengkung dengan latar langit.</desc>
+  <rect width="400" height="300" rx="32" fill="#cfe9ff" />
+  <rect x="0" y="210" width="400" height="90" fill="#b9fbc0" />
+  <g transform="translate(200 110)">
+    <path d="M-80 120 C -60 20 -40 -80 40 -90 C 110 -96 140 -30 110 24 C 90 58 40 82 8 70 C -10 64 -16 46 -6 32 C 6 14 38 20 40 42" stroke="#2d3142" stroke-width="10" fill="none" stroke-linecap="round" />
+    <path d="M-78 118 C -56 28 -30 -70 36 -80 C 90 -86 114 -32 92 12 C 80 36 44 54 18 46 C 6 42 2 32 8 26" stroke="#ff9a9e" stroke-width="24" fill="none" stroke-linecap="round" />
+    <path d="M4 40 C 22 44 42 36 50 18" stroke="#ffde7d" stroke-width="20" fill="none" stroke-linecap="round" />
+  </g>
+</svg>

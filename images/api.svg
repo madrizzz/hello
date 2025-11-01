@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" role="img" aria-labelledby="title desc">
+  <title id="title">Ilustrasi api kartun</title>
+  <desc id="desc">Api berlapis warna jingga, merah, dan kuning dengan mata tersenyum.</desc>
+  <rect width="400" height="300" rx="32" fill="#ffe7c7" />
+  <g transform="translate(200 160)">
+    <path d="M0 -110 C 35 -70 60 -20 40 40 C 20 100 -20 100 -40 40 C -60 -20 -35 -70 0 -110" fill="#ff914d" />
+    <path d="M0 -70 C 25 -40 40 0 28 36 C 16 72 -16 72 -28 36 C -40 0 -25 -40 0 -70" fill="#ff6f61" />
+    <path d="M0 -35 C 14 -18 22 6 16 30 C 10 52 -10 52 -16 30 C -22 6 -14 -18 0 -35" fill="#ffd166" />
+    <ellipse cx="-18" cy="10" rx="8" ry="12" fill="#2d3142" />
+    <ellipse cx="18" cy="10" rx="8" ry="12" fill="#2d3142" />
+    <path d="M-12 38 Q0 54 12 38" stroke="#2d3142" stroke-width="6" stroke-linecap="round" fill="none" />
+  </g>
+</svg>
